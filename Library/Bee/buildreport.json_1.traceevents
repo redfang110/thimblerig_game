@@ -1,0 +1,577 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1655939108137733, "dur": 3094977, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939108139144, "dur": 25598, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939108164954, "dur": 45964, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939108210970, "dur": 278173, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939108489154, "dur": 2733045, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939111222222, "dur": 10488, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939119801687, "dur": 351353, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939119801959, "dur": 1086, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939119803046, "dur": 26438, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939119829497, "dur": 245663, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939120075175, "dur": 76686, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939120151876, "dur": 1164, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939120153883, "dur": 26, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1655939119932479, "dur": 116456, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655939119933654, "dur": 46300, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655939120030604, "dur": 5783, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655939120036389, "dur": 12539, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655939120037269, "dur": 11157, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655939120053302, "dur": 1425, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655939120052844, "dur": 1908, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939120154036, "dur": 96, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655939120099454, "dur":700, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120100165, "dur":65, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655939120100236, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655939120100260, "dur":231, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655939120100499, "dur":433, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120100932, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120131532, "dur":133, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120131665, "dur":223, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120131888, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120131896, "dur":135, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132031, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132039, "dur":142, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132181, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132189, "dur":136, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132325, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132333, "dur":137, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132470, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132478, "dur":147, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132625, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132632, "dur":130, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132762, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132770, "dur":150, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132920, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120132927, "dur":137, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133064, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133072, "dur":128, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133200, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133207, "dur":154, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133361, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133371, "dur":133, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133504, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133512, "dur":154, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133666, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133674, "dur":131, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133805, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133813, "dur":148, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133961, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120133970, "dur":151, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120134121, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120134128, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120134134, "dur":3559, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655939120100342, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120100942, "dur":2193, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120103138, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655939120103143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120104289, "dur":239, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655939120104530, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655939120104640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120105164, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655939120105915, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig.exe" }}
+,{ "pid":12345, "tid":1, "ts":1655939120106312, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120106374, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig.exe" }}
+,{ "pid":12345, "tid":1, "ts":1655939120106897, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120106924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120106930, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120107858, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120107900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120107904, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120109710, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120109857, "dur":81, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120110317, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120111964, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120112211, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120112759, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120114146, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120114533, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120114999, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120116215, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120116510, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120117039, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120118380, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120118658, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120119085, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120120155, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120120364, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120121043, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655939120122348, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655939120122505, "dur":85, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655939120123002, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655939120123751, "dur":7887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655939120100352, "dur":622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655939120100974, "dur":2193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655939120103168, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655939120103240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655939120105103, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655939120105885, "dur":25106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655939120130996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655939120131003, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655939120131467, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1655939120131468, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120100361, "dur":621, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120100982, "dur":2208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120103191, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655939120103307, "dur":101, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120105106, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655939120105985, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655939120106124, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120106736, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655939120107149, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120107230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120107284, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120108711, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120108776, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120109241, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120110751, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120111124, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120111549, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120112824, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120112972, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120113344, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120114906, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120115161, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120115659, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120117123, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120117358, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120117746, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120119076, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120119257, "dur":95, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120119738, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655939120121217, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655939120121359, "dur":85, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120121787, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655939120123117, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1655939120123272, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655939120123527, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1655939120124306, "dur":7298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120100366, "dur":620, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120100986, "dur":2207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120103194, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1655939120103323, "dur":85, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120104851, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1655939120106263, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120106430, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120106694, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120107857, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120107934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120107939, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120109984, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120110141, "dur":56, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120110543, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120112177, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120112531, "dur":72, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120112864, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120114112, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120114377, "dur":159, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120114875, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120116121, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120116527, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120117025, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120118325, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120118560, "dur":86, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120119064, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120120221, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120120436, "dur":109, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120121157, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655939120122668, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1655939120122853, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655939120123296, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1655939120124084, "dur":7483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120100377, "dur":616, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120100993, "dur":2202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120103195, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1655939120103404, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120104821, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1655939120106192, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120106384, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120106678, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120107295, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120107370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120107377, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120108606, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120108713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120108742, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120110295, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120110495, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120110607, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120112481, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120112718, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120113057, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120114892, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120115156, "dur":89, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120115663, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120117104, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120117258, "dur":92, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120117679, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120119164, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120119277, "dur":99, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120119577, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655939120121165, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1655939120121290, "dur":62, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120121831, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1655939120123084, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1655939120123288, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655939120123572, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1655939120124377, "dur":7239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120100379, "dur":617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120100996, "dur":2200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120103203, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1655939120103385, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120104833, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1655939120105605, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1655939120105617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120105623, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1655939120106405, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120106523, "dur":75, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120106694, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120107309, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120107380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120107386, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120108168, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120108231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120108281, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120110049, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120110177, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120110610, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120111998, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120112208, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120112742, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120114398, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120114885, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120115346, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120117012, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120117155, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120117554, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120118780, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120118868, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120119284, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120120630, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120121221, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655939120121643, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655939120123217, "dur":8412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120100373, "dur":616, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120100989, "dur":2205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120103195, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1655939120103334, "dur":79, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120104826, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1655939120106215, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120106364, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120106611, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120107574, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120107587, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120107690, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120109009, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120109204, "dur":81, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120109701, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120111121, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120111246, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120111529, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120112812, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120113046, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120113324, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120115322, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120115582, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120116098, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120117722, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120117988, "dur":76, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120118458, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120119672, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120119814, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120120174, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655939120121794, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1655939120121920, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655939120122384, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1655939120123579, "dur":7960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120100400, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120100999, "dur":2217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120103216, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1655939120103460, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120104776, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1655939120105668, "dur":3064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1655939120108736, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120109044, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1655939120110186, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120110412, "dur":75, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120110627, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120112019, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120112301, "dur":73, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120112798, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120114311, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120114592, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120115146, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120116629, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120116917, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120117383, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120118700, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120118925, "dur":68, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120119376, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655939120120907, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1655939120121191, "dur":58, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655939120121945, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1655939120123230, "dur":8322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120100408, "dur":594, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120101002, "dur":2198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120103200, "dur":993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1655939120104195, "dur":90, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120104986, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1655939120105628, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1655939120105640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120105647, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1655939120106380, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120106486, "dur":100, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120106694, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120107694, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120107722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120107786, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120109072, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120109325, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120109815, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120111094, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120111238, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120111536, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120112794, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120113003, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120113325, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120115308, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120115553, "dur":107, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120116170, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120117852, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120118119, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120118546, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120119483, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120119713, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120119730, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655939120121296, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1655939120121443, "dur":84, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655939120121805, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1655939120123193, "dur":8333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120100414, "dur":591, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120101005, "dur":2196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120103201, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1655939120103316, "dur":93, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120104796, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1655939120106234, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120106389, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120106656, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120107644, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120107795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120107805, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120109368, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120109718, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120110194, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120111482, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120111629, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120112223, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120113357, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120113638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120113694, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120115397, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120115642, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120116128, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120117756, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120118009, "dur":89, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120118474, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120119664, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120119837, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120120228, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655939120121622, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1655939120121780, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655939120122147, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1655939120123396, "dur":8160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120100435, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120101009, "dur":2193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120103202, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1655939120103329, "dur":80, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120104800, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1655939120106146, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120106290, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120106663, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120107695, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120107724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120107789, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120108761, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120109047, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120109592, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120110790, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120110971, "dur":142, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120111540, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120113067, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120113322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120113411, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120115019, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120115215, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120115703, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120117129, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120117365, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120117744, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120119215, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120119457, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120119818, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655939120121413, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1655939120121558, "dur":43, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655939120121885, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1655939120123377, "dur":8155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120100448, "dur":564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120101012, "dur":2197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120103223, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1655939120103274, "dur":133, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120104788, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1655939120106159, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120106254, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120106603, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120107329, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120107413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120107419, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120108172, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120108365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120108372, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120110023, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120110192, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120110633, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120112540, "dur":947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120113490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120113496, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120115438, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120115662, "dur":46, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120116152, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120117670, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120117914, "dur":112, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120118385, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120119809, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120119916, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120120317, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655939120121685, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1655939120121815, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655939120122254, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1655939120123470, "dur":8109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120100465, "dur":550, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120101015, "dur":2191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120103206, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1655939120103394, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120104808, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1655939120105660, "dur":8827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120114490, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120115064, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120116512, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120116744, "dur":90, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120117213, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120118433, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120118670, "dur":129, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120119167, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120120480, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120120791, "dur":119, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120121301, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655939120122695, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1655939120122865, "dur":73, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655939120123296, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1655939120124153, "dur":7439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120100470, "dur":548, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120101018, "dur":2198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120103216, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1655939120103457, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120104771, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1655939120105964, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1655939120106103, "dur":48, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120106627, "dur":448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1655939120107083, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120107152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120107158, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120108145, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120109246, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120109817, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120111332, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120111471, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120111772, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120113316, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120113386, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120113482, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120115526, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120115829, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120116593, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120118134, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120118298, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120118785, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120120051, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120120647, "dur":122, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120121250, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655939120122330, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1655939120122538, "dur":133, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655939120123030, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1655939120123742, "dur":7805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120100486, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120101021, "dur":2186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120103209, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1655939120103442, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120104783, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1655939120105640, "dur":2111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120107802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120107947, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120108598, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120108700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120108711, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120110210, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120110427, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120110605, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120112035, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120112257, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120112781, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120114916, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120115161, "dur":82, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120115657, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120117032, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120117193, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120117561, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120119139, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120119299, "dur":77, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120119791, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655939120121198, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1655939120121320, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120121668, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1655939120123111, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1655939120123262, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655939120123526, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1655939120124142, "dur":7370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120100502, "dur":523, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120101025, "dur":2186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120103211, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1655939120103344, "dur":69, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120104791, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1655939120106255, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120106379, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120106692, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120107894, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120107958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120107964, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120109382, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120109696, "dur":90, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120110149, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120111982, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120112219, "dur":70, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120112717, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120114202, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120114594, "dur":93, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120115120, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120116729, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120117063, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120117516, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120118674, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120118856, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120119263, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120120615, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120120917, "dur":79, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120121363, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655939120122806, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1655939120123050, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655939120123370, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/noahhall/Desktop/Thimblerig-windows/Thimblerig_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1655939120124137, "dur":7435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655939120141488, "dur":883, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1655939120154155, "dur": 586, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655939120153864, "dur": 885, "ph": "X", "name": "Write chrome-trace events", "args": {} },
